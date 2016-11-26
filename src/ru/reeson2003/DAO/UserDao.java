@@ -33,6 +33,7 @@ public class UserDao {
         result.setId(id);
         result.setLogin(login);
         result.setPassword(password);
+        resultSet.close();
         return result;
     }
 }
